@@ -1,0 +1,35 @@
+#note {
+  padding: 10px;
+  color: rgb(163, 162, 162);
+}
+
+.note_item {
+  padding: 0 15px;
+}
+
+#caro_wraper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caro_title {
+  padding: 20px;
+}
+
+#caro_container {
+  --values: 500px;
+  width: var(--values);
+  height: var(--values);
+  /* border: 10px solid var(--color-boder); */
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.caro_item {
+  border: 5px solid var(--color-boder);
+  cursor: pointer;
+}
